@@ -14,7 +14,7 @@ body{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    height: 600vh;
+    height: fit-content;
     justify-content: space-around;
 }
 

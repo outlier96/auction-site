@@ -1,5 +1,5 @@
 (function(){
-  // Add to Cart Interaction - by CodyHouse.co
+  // Add to Cart Interaction
   var cart = document.getElementsByClassName('js-cd-cart');
   if(cart.length > 0) {
   	var cartAddBtns = document.getElementsByClassName('js-cd-add-to-cart'),
@@ -190,3 +190,13 @@
 		};
   }
 })();
+
+const targetDiv = document.getElementById("Success");
+const btn = document.getElementById("toggle");
+btn.onclick = function() {
+	if (targetDiv.style.display !== "none") {
+		targetDiv.style.display= "none";
+	} else{
+		targetDiv.style.display= "block";
+	}
+};
