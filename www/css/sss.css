@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: #e8f1f1ec;
+}
+nav{
+    list-style-type: style circle;
+    height: 120px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+nav .logo{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: 600;
+    padding-top: 50px;
+    position: relative;
+}
+    
+    
+
+.a{
+    margin:10px;
+    list-style:none;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CARS{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
+max-width: 500px;
+margin: auto;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+
+}
+.price{
+color: gray;
+font-size: 22px;
+}
+
+.CARS button{
+border: darkgoldenrod;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+
+}
+.CARS button:hover{
+opacity: 0.9;
+}

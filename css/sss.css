@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: #e8f1f1ec;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 600vh;
+    justify-content: space-around;
+}
+
+nav{
+    list-style-type: style circle;
+    height: 120px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: #fff;
+}
+nav .logo{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: 600;
+    padding-top: 50px;
+    position: relative;
+}
+
+nav .a a{
+    color: #fff;
+    font-family: cursive;
+}
+    
+    
+
+.a{
+    margin:10px;
+    list-style:none;
+    padding:5px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    margin-top: -5px;
+}
+
+.CARS{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
+width: 500px;
+height: 550px;
+margin: 10px 10px 10px 10px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+position: relative;
+margin-top: 70px;
+
+}
+
+.CARS img{
+    height: 400px;
+    width: 100%;
+}
+
+.price{
+color: gray;
+font-size: 22px;
+}
+
+.CARS button{
+border: darkgoldenrod;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+
+}
+.CARS button:hover{
+opacity: 0.9;
+}
